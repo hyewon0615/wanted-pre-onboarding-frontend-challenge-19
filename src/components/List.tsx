@@ -18,7 +18,7 @@ const List = () => {
             style={{
               display: "flex",
               gap: "5px",
-              width: "400px",
+              borderRadius: "10px",
               alignItems: "center",
               border: "2px solid gray",
               justifyContent: "space-between",
@@ -29,14 +29,14 @@ const List = () => {
               style={{
                 whiteSpace: "normal",
                 wordWrap: "break-word",
-                maxWidth: "340px",
+                maxWidth: "300px",
               }}
             >
               {todo.text}
             </h1>
             <button
               onClick={() => deletehandle(todo.id)}
-              style={{ height: "30px" }}
+              style={{ height: "30px", borderRadius: "8px" }}
             >
               delete
             </button>
