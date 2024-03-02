@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { TodosState, deleteTodo } from "../store/modules/todos";
+import { TodosState, deleteTodo } from "../store/modules/todosSlice";
 type Todolist = {
   todos: TodosState;
 };
